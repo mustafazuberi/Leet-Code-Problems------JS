@@ -1,3 +1,6 @@
+//Solved
+
+//  Longest Substring Without Repeating Characte
 // Example 1:
 // Input: s = "abcabcbb"
 // Output: 3
@@ -30,7 +33,7 @@ const lengthOfLongestSubstring = (s) => {
     }
   }
 
-  return maxLength
+  return maxLength;
 };
 let s = "abcabcbb";
 const answer2 = lengthOfLongestSubstring(s);
